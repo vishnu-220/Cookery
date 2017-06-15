@@ -1,0 +1,182 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="footer, address, phone, icons" />
+
+  <title>Recepies</title>
+  <link rel="stylesheet" href="css/index.css">
+  <link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="font-awesome-4.7.0\font-awesome-4.7.0\css\font-awesome.min.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900|RobotoDraft:400,100,300,500,700,900'>
+  <link rel="stylesheet" href="css/style.css">
+
+  
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="http://cdn.tutorialzine.com/misc/enhance/v3.js" async></script>
+  <script src="js/index.js"></script>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  
+  
+  
+  <link rel="stylesheet" href="css/index.css">
+  <link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900|RobotoDraft:400,100,300,500,700,900'>
+  <link rel="stylesheet" href="css/style.css">
+
+  
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="http://cdn.tutorialzine.com/misc/enhance/v3.js" async></script>
+  <script src="js/index.js"></script>
+  <!-- <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script> -->
+  
+  <link rel="icon" type="image/png" href="c.png">
+</head>
+
+<body onload="getUsername()">
+
+<header class="header-login-signup">
+
+  <div class="header-limiter">
+
+    <h1><a href="">Food <span>Blogger&nbsp;&nbsp;&nbsp;&nbsp;</span>#CookAndTell</a></h1>
+
+    <!-- <nav>
+      <a href="homePage.html">About us</a>
+      <a href="userHome.html" class="selected">Events</a>
+      <a href="#">Blog</a>
+      <a href="#" class="selected">Contact Us</a>
+    </nav>
+ -->
+
+    <ul>
+      <li><a onclick="show()" id="login-show">Login/Sign up</a></li>
+      
+    </ul>
+  </div>
+
+</header>
+<div id="center-div">
+<div class="home-info">
+<p class="about-food">
+Before we talk about us, let’s talk about you.</p>
+</br>
+</br>
+<p class="about-food">
+You love to eat. That’s right, we’ve got your number. There’s no need to be shy about it — we love to eat, too. 
+</p>
+</br>
+</br> 
+<p class="about-food">
+We’ve been helping you eat for awhile now, and we wouldn’t have it any other way. We also know about all the other stuff you love: Like cooking and getting together, and talking about eating, and sharing it all here, on Food.com.
+ </p>
+ </br>
+ </br>
+ <p class="about-food">
+Over the fifteen-year life span of Food.com, we’ve learned that – in addition to eating – sharing is what you do best. And thanks to the 20 million of you who come here each month, we now have 500,000 recipes to show for it, more than anywhere else in the digital universe. We also have tons crazy-tempting photos, troves of recipe reviews and more than 2 million Facebook likes. That’s a heck of a lot of Food. Thank you!
+ </p></br></br>
+ <p class="about-food">
+We thought we’d celebrate with a fresh, new Food. Our aim is to make all this cooking, eating and sharing easier. Whether it’s finding a recipe, showing off your latest cooking triumph, photographing a killer meal or sharing the shortcuts that make your life run more smoothly, the new-and-improved Food.com makes this place – your home for sharing all things food – the spot to be.
+ </p>
+ </br>
+ </br>
+ <p class="about-food">
+So look around, download our magic grocery deals app, figure out what to make for dinner tonight, and see where it all takes you. We’re glad you’re here, and we invite you to come back often. And whatever way you like to #CookAndTell – we hope you’ll do more of it here with us</p>
+</div>
+<div class="container">
+  <div class="card"></div>
+  <div class="card">
+    <h1 class="title">Login</h1>
+    
+      <div class="input-container">
+        <input type="text" id="username" required="required"/>
+        <label for="username">Username</label>
+        <div class="bar"></div>
+      </div>
+      <div class="input-container">
+        <input type="password" id="password" required="required"/>
+        <label for="password">Password</label>
+        <div class="bar"></div>
+      </div>
+      <div class="button-container">
+        <button onclick="authorize()"><span>Go</span></button>
+      </div>
+      <div class="footer"><a href="#">Forgot your password?</a></div>
+    </form>
+  </div>
+  <div class="card alt">
+    <div class="toggle"></div>
+    <h1 class="title">Register
+      <div class="close"></div>
+    </h1>
+    
+      <div class="input-container">
+        <input type="text" id="usernamesignup" required="required"/>
+        <label for="username_signup">Username</label>
+        <div class="bar"></div>
+      </div>
+      <div class="input-container">
+        <input type="password" id="newpwdsignup" required="required"/>
+        <label for="newpwd_signup">Password</label>
+        <div class="bar"></div>
+      </div>
+      <div class="input-container">
+        <input type="password" id="conpwdsignup" required="required"/>
+        <label for="conpwd_signup">Confirm Password</label>
+        <div class="bar"></div>
+      </div>
+
+      <div class="button-container">
+        <button onclick="submit_form()"><span>Next</span></button>
+      </div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+  </div>
+
+</div>
+
+<footer class="footer-distributed">
+
+      <div class="footer-right">
+
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-github"></i></a>
+
+      </div>
+
+      <div class="footer-left">
+
+        <!-- <p class="footer-links">
+          <a href="#">Home</a>
+          ·
+          <a href="#">About Us</a>
+          ·
+          <a href="#">Blog</a>
+          ·
+          <a href="#">Contact Us</a>
+          
+        </p> -->
+
+        <p>Food Blogger &copy; 2017</p>
+      </div>
+
+    </footer>
+
+
+</body>
+</html>
